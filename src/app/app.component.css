@@ -1,0 +1,23 @@
+.carousel-image{
+  width: 900px;
+  height: 640px;
+}
+.service{
+  padding: 5%;
+  background-image: url("../assets/images/bg/dark-wood.jpg");
+  color: white;
+}
+.service .chapel-title{
+font-family: 'Cinzel', serif;
+}
+.service p{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.mission{
+  padding: 10%;
+  background-image: url("../assets/images/bg/city.jpeg");
+  font-family: 'Just Another Hand', cursive;
+  font-size: 40pt;
+
+}
