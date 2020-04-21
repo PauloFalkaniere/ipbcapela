@@ -1,7 +1,8 @@
 export class Hero {
-  id: number;
+  id: number; 
   title: string;
-  description: string;
+  passage: string;
+  preacher_name: string;
   url: string;
-  text: string;
+  script: string;
 }
