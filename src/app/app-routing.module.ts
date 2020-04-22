@@ -6,6 +6,9 @@ import { RouterModule, Routes } from '@angular/router';
 // Import Components for routes
 import { SermonsComponent }      from './sermons/sermons.component'; // sermons modules component
 import { HomeComponent } from './home/home.component'; // home modules component
+import { SobreComponent } from './sobre/sobre.component'; // sobre component
+
+
 import { AppComponent } from './app.component'; //app modules component
 
 
@@ -13,7 +16,8 @@ const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   // { path: 'detail/:id', component: HeroDetailComponent },
-  { path: 'sermons', component: SermonsComponent }
+  { path: 'sermons', component: SermonsComponent },
+  { path: 'sobre', component: SobreComponent }
 ];
 
 //

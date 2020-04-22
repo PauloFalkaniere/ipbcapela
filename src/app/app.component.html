@@ -1,55 +1,26 @@
-<header>
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #072203;">
-  <a class="navbar-brand" href="home#carouselExampleFade">
-      <img src="assets/images/oie.png" height="90" class="d-inline-block align-top" alt="">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="home#carouselExampleFade">  <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a href="home#acontece" class="nav-link">Acontece na Capela</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="home#mission">Quem somos</a>
-      </li>
-      <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Recursos
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Boletim</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCSPI4eAi2Yf3Bb7IWCbfXXQ/playlists" target="_blank">Sermões</a>
-          <!-- <a class="dropdown-item" routerLink="/sermons">Sermões</a> -->
-        </div>
-      </li>
-      <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Sociedades Internas
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">UMP</a>
-          <a class="dropdown-item" href="#">UPH</a>
-          <a class="dropdown-item" href="#">SAF</a>
-        </div>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="home#contact">Fale Conosco</a>
-      </li>
-    </ul>
-    <div class="my-2 my-lg-0">
-      <a href="https://www.facebook.com/ipbvinhedo" target="_blank">
-        <i style="color: white"class="fab fa-facebook-f fa-2x"></i>
+  <!--  -->
+  <nav class="site-header sticky-top py-1 justify-content-md-center" style="background-color: #072203;">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="home" aria-label="Product">
+        <img src="assets/images/oie.png" width="50" height="50" fill="none" class="d-block mx-auto"  alt="">
       </a>
+      <a class="py-3 d-none d-md-inline-block nav-aa" href="home#acontece">Agenda</a>
+      <a class="py-3 d-none d-md-inline-block nav-aa" routerLink="/sobre" >Quem Somos</a>
+      <a class="py-3 d-none d-md-inline-block nav-aa"  href="https://www.youtube.com/channel/UCSPI4eAi2Yf3Bb7IWCbfXXQ/playlists" target="_blank" >Sermões</a>
+      <a class="py-3 d-none d-md-inline-block nav-aa" href="home#onde">Onde estamos?</a>
+      <a class="py-3 d-none d-md-inline-block nav-aa" href="home#contact">Fale Conosco</a>
+      <a class="py-3 d-none d-md-inline-block nav-aa" href="/home">Sociedades Internas</a>
     </div>
-  </div>
-</nav>
-</header>
+  </nav>
+
+
+
 <router-outlet></router-outlet>
+<!-- <div class="container">
+  <div class="row">
+  </div>
+</div> -->
+
 <footer id="contact">
 
 </footer>

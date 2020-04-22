@@ -1,3 +1,10 @@
+.nav-aa{
+
+  color: white;
+}
+a:hover{
+  color: gray;
+  }
 .carousel-image{
   width: 900px;
   height: 640px;
@@ -25,5 +32,5 @@ footer{
   background-image: url('../assets/images/bg/church.jpg');
   color: white;
   width: 100%;
-  height: 640px;
+  height: 300px;
 }
