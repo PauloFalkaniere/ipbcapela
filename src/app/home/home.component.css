@@ -1,6 +1,5 @@
 .carousel-image{
-  width: 900px;
-  height: 640px;
+  height: 640px !important;
 }
 .service{
   padding: 5%;
