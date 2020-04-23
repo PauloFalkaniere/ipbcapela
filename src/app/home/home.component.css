@@ -17,10 +17,10 @@ font-family: 'Cinzel', serif;
 .mission{
   padding: 10%;
   background-image: url("../../assets/images/bg/city.jpeg");
-  font-family: 'Just Another Hand', cursive;
-  font-size: 40pt;
-
+  font-family: 'Great Vibes', cursive;
+  font-size: 60pt;
 }
+
 #onde{
-  background-color: black; 
+  background-color: black;
 }
