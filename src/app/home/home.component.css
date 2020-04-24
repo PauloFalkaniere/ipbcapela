@@ -16,10 +16,15 @@ font-family: 'Cinzel', serif;
 .mission{
   padding: 10%;
   background-image: url("../../assets/images/bg/city.jpeg");
-  background-position: center;
-  color: black;
+  background-position: bottom;
+  color: white;
   font-family: 'Great Vibes', cursive;
   font-size: 60pt;
+}
+
+.mission p{
+  background-color: rgba(88, 84, 84, 0.45);
+  border-radius: 23px;
 }
 
 #onde{
