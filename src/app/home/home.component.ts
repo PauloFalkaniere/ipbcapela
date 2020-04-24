@@ -12,4 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  redirect(url){
+    window.open(url, "_blank");
+  }
+
 }
