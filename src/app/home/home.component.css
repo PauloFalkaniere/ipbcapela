@@ -16,6 +16,8 @@ font-family: 'Cinzel', serif;
 .mission{
   padding: 10%;
   background-image: url("../../assets/images/bg/city.jpeg");
+  background-position: center;
+  color: black;
   font-family: 'Great Vibes', cursive;
   font-size: 60pt;
 }
